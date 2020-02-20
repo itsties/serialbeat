@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/benben/serialbeat/cmd"
+	"github.com/itsties/serialbeat/cmd"
 )
 
 func main() {

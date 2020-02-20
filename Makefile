@@ -1,6 +1,6 @@
 BEAT_NAME=serialbeat
-BEAT_PATH=github.com/benben/serialbeat
-BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
+BEAT_PATH=github.com/itsties/serialbeat
+BEAT_GOPATH=${GOPATH}
 BEAT_URL=https://${BEAT_PATH}
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false

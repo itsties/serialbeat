@@ -9,7 +9,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 
-	"github.com/benben/serialbeat/config"
+	"github.com/itsties/serialbeat/config"
 
 	"github.com/tarm/serial"
 )

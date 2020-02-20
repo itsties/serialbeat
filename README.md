@@ -1,6 +1,7 @@
 # serialbeat
 
-A beat for shipping serial output to logstash or elasticsearch.
+[Benben's](https://github.com/benben/serialbeat) beat for shipping serial output to logstash or 
+elasticsearch. But with an updated Beats version ([7.6.0](https://github.com/elastic/beats/releases/tag/v7.6.0)) and dependancies
 
 ## Synopsis
 
@@ -17,9 +18,9 @@ And run `./serialbeat -c serialbeat.yml -e -d "*"` to see your serial output.
 
 ## Installation
 
-    mkdir -p ${GOPATH}/src/github.com/benben/serialbeat
-    git clone git@github.com:benben/serialbeat.git ${GOPATH}/src/github.com/benben/serialbeat
-    cd ${GOPATH}/src/github.com/benben/serialbeat
+    mkdir -p ${GOPATH}/src/github.com/itsties/serialbeat
+    git clone git@github.com:itsties/serialbeat.git ${GOPATH}/src/github.com/itsties/serialbeat
+    cd ${GOPATH}/src/github.com/itsties/serialbeat
     glide i
     make
 
